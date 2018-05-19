@@ -1,0 +1,553 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <!-- Meta, title, CSS, favicons, etc. -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    		<!-- Favicon -->
+		<link rel="apple-touch-icon" sizes="57x57" href="img/favicon/apple-icon-57x57.png">
+		<link rel="apple-touch-icon" sizes="60x60" href="img/favicon/apple-icon-60x60.png">
+		<link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-icon-72x72.png">
+		<link rel="apple-touch-icon" sizes="76x76" href="img/favicon/apple-icon-76x76.png">
+		<link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-icon-114x114.png">
+		<link rel="apple-touch-icon" sizes="120x120" href="img/favicon/apple-icon-120x120.png">
+		<link rel="apple-touch-icon" sizes="144x144" href="img/favicon/apple-icon-144x144.png">
+		<link rel="apple-touch-icon" sizes="152x152" href="img/favicon/apple-icon-152x152.png">
+		<link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-icon-180x180.png">
+		<link rel="icon" type="image/png" sizes="192x192"  href="img/favicon/android-icon-192x192.png">
+		<link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="96x96" href="img/favicon/favicon-96x96.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
+		<link rel="manifest" href="img/favicon/manifest.json">
+		<meta name="msapplication-TileColor" content="#ffffff">
+		<meta name="msapplication-TileImage" content="img/favicon/ms-icon-144x144.png">
+		<meta name="theme-color" content="#ffffff">
+
+
+    <title>GD | Archivos</title>
+
+    <!-- Bootstrap core CSS -->
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/pokemon.css" rel="stylesheet">
+	<link href="css/padre.css" rel="stylesheet">
+
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/animate.min.css" rel="stylesheet">
+
+    <!-- Custom styling plus plugins -->
+    <link href="css/custompcsistel.css" rel="stylesheet">
+    <link href="css/icheck/flat/green.css" rel="stylesheet">
+	<link href="css/sweetalert.css" rel="stylesheet">
+    <!-- editor -->
+    <link href="http://netdna.bootstrapcdn.com/font-awesome/3.0.2/css/font-awesome.css" rel="stylesheet">
+    <link href="css/editor/external/google-code-prettify/prettify.css" rel="stylesheet">
+    <link href="css/editor/index.css" rel="stylesheet">
+    <!-- select2 -->
+    <link href="css/select/select2.min.css" rel="stylesheet">
+    <!-- switchery -->
+    <link rel="stylesheet" href="css/switchery/switchery.min.css" />
+
+    <script src="js/jquery.min.js"></script>
+	<script src="js/pokemon.js"></script>
+	<script src="js/sweetalert-dev.js"></script> 
+
+    <!--[if lt IE 9]>
+        <script src="../assets/js/ie8-responsive-file-warning.js"></script>
+        <![endif]-->
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+          <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+          <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+        <![endif]-->
+
+</head>
+
+
+<body class="nav-md">
+
+    <div class="container body">
+
+
+        <div class="main_container">
+
+             <div class="col-md-3 left_col">
+                <div class="left_col scroll-view">
+
+                    <div class="navbar nav_title" style="border: 0; padding:0.5em;">
+                        <a href="pcsistel.html" class="site_title">Imagenes diagnosticas</a>
+                       
+                    </div>
+                    <div class="clearfix"></div>
+
+                    <!-- menu prile quick info -->
+                    <div class="profile">
+                        <div class="profile_pic">
+                            <img src="img/img.jpg" alt="Foto de Perfil" class="img-circle profile_img">
+                        </div>
+                        <div class="profile_info">
+                            <span>Welcome,</span>
+                            <h2>John Allate</h2>
+                        </div>
+                    </div>
+                    <!-- /menu prile quick info -->
+
+                    <br />
+
+                    <!-- sidebar menu -->
+                    <div id="sidebar-menu" class="main_menu_side hidden-print main_menu">
+
+                        <div class="menu_section">
+                            <h3>General</h3>
+                            <ul class="nav side-menu">
+                                <li><a href="pcsistel.html"><i class="fa fa-home"></i>Inicio</a>
+                                </li>
+								<li><a><i class="fa fa-building"></i>Imágenes diagnosticas<span class="fa fa-chevron-down"></span></a>
+                                    <ul class="nav child_menu" style="display: none">
+									    <li><a href="formularios.html">Lista de imágenes</a>
+                                        </li>
+                                    </ul>
+                                </li>
+								 <li><a><i class="fa fa-building"></i>Diagnostico<span class="fa fa-chevron-down"></span></a>
+                                    <ul class="nav child_menu" style="display: none">
+									    <li><a href="formularios.html">Realizar diagnostico</a>
+                                        </li>
+                                    </ul>
+                                </li>
+								<li><a><i class="fa fa-building"></i>Historial<span class="fa fa-chevron-down"></span></a>
+                                    <ul class="nav child_menu" style="display: none">
+									    <li><a href="datatablejs.html">Ver historial</a>
+                                        </li>
+                                    </ul>
+                                </li>
+								<li><a><i class="fa fa-building"></i>Mas información<span class="fa fa-chevron-down"></span></a>
+                                    <ul class="nav child_menu" style="display: none">
+									    <li><a href="contactenos.html">Contactenos</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li><a><i class="fa fa-envelope-o"></i>Opción<span class="fa fa-chevron-down"></span></a>
+                                    <ul class="nav child_menu" style="display: none">
+                                        <li><a >Uno</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- top navigation -->
+			
+            <div class="top_nav navbar-fixed-top">
+
+                <div class="nav_menu">
+                    <nav class="" role="navigation">
+                        <div class="nav toggle">
+                            <a id="menu_toggle"><i class="fa fa-bars"></i></a>
+                        </div>
+
+                        <ul class="nav navbar-nav navbar-right">
+                            <li class="">
+                                <a href="javascript:;" class="user-profile dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+                                    <img src="img/img.jpg" alt="">John Allate
+                                    <span class=" fa fa-angle-down"></span>
+                                </a>
+                                <ul class="dropdown-menu dropdown-usermenu animated fadeInDown pull-right">
+                                    <li><a href="javascript:;">  Mis Datos</a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:;">
+                                            <span class="badge bg-red pull-right">100%</span>
+                                            <span>Seguridad</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:;">Ayuda</a>
+                                    </li>
+                                    <li><a href="login.html"><i class="fa fa-sign-out pull-right"></i> Salir</a>
+                                    </li>
+                                </ul>
+                            </li>
+
+                            <li role="presentation" class="dropdown">
+                                <a href="javascript:;" class="dropdown-toggle info-number" data-toggle="dropdown" aria-expanded="false">
+                                    <i class="fa fa-envelope-o"></i>
+                                    <span class="badge bg-green">6</span>
+                                </a>
+                                <ul id="menu1" class="dropdown-menu list-unstyled msg_list animated fadeInDown" role="menu">
+                                    <li>
+                                        <a>
+                                            <span class="image">
+                                        <img src="img/img.jpg" alt="Profile Image" />
+                                    </span>
+                                            <span>
+                                        <span>John Smith</span>
+                                            <span class="time">3 mins ago</span>
+                                            </span>
+                                            <span class="message">
+                                        Film festivals used to be do-or-die moments for movie makers. They were where... 
+                                    </span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a>
+                                            <span class="image">
+                                        <img src="img/img.jpg" alt="Profile Image" />
+                                    </span>
+                                            <span>
+                                        <span>John Smith</span>
+                                            <span class="time">3 mins ago</span>
+                                            </span>
+                                            <span class="message">
+                                        Film festivals used to be do-or-die moments for movie makers. They were where... 
+                                    </span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a>
+                                            <span class="image">
+                                        <img src="img/img.jpg" alt="Profile Image" />
+                                    </span>
+                                            <span>
+                                        <span>John Smith</span>
+                                            <span class="time">3 mins ago</span>
+                                            </span>
+                                            <span class="message">
+                                        Film festivals used to be do-or-die moments for movie makers. They were where... 
+                                    </span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a>
+                                            <span class="image">
+                                        <img src="img/img.jpg" alt="Profile Image" />
+                                    </span>
+                                            <span>
+                                        <span>John Smith</span>
+                                            <span class="time">3 mins ago</span>
+                                            </span>
+                                            <span class="message">
+                                        Film festivals used to be do-or-die moments for movie makers. They were where... 
+                                    </span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <div class="text-center">
+                                            <a>
+                                                <strong><a href="inbox.html">See All Alerts</strong>
+                                                <i class="fa fa-angle-right"></i>
+                                            </a>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </li>
+
+                        </ul>
+                    </nav>
+                </div>
+
+            </div>
+            <!-- /top navigation -->
+
+            <!-- page content -->
+            <div class="right_col" role="main">
+                <div class="">
+
+                    <div class="page-title">
+                        <div class="title_left">
+                            <h3>Realizar diagnostico</h3>
+                        </div>
+                        <div class="title_right">
+                            <div class="col-md-5 col-sm-5 col-xs-12 form-group pull-right top_search">
+                                <div class="input-group">
+                                    <input type="text" class="form-control" placeholder="Buscar">
+                                    <span class="input-group-btn">
+                            <button class="btn btn-default" type="button">Ir</button>
+                        </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="clearfix"></div>
+                    <div class="row">
+                        <div class="col-md-12 col-sm-12 col-xs-12">
+                            <div class="x_panel">
+                                <div class="x_title">
+                                    <ul class="nav navbar-right panel_toolbox">
+                                        <li><a class="collapse-link"><i class="fa fa-chevron-up"></i></a>
+                                        </li>
+                                        <li class="dropdown">
+                                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><i class="fa fa-wrench"></i></a>
+                                            <ul class="dropdown-menu" role="menu">
+                                                <li><a href="#">Settings 1</a>
+                                                </li>
+                                                <li><a href="#">Settings 2</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li><a class="close-link"><i class="fa fa-close"></i></a>
+                                        </li>
+                                    </ul>
+                                    <div class="clearfix"></div>
+                                </div>
+                                <div class="x_content">
+
+								
+								
+								<section id="container" ondrop="drop(event)" ondragover="allowDrop(event)">
+								  <div class="padre">
+									 <div class="tipo" id="fuego" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+									 <div class="tipo" id="agua" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+								  </div>
+								  <div><p> IMAGENEES CARGADAS EN EL SISTEMA <br> Arrastrar imágenes..... <p/><div/>
+								  <img class="pokemon" src="img/imagenojos.png" draggable="true" ondragstart="drag(event)" id="drag1"/>
+								  <img class="pokemon" src="img/imagenojos2.png" draggable="true" ondragstart="drag(event)" id="drag2"/>
+								  <img class="pokemon" src="img/imagenojos3.png"draggable="true" ondragstart="drag(event)" id="drag3"/>
+								  <img class="pokemon" src="img/imagenojos4.png" draggable="true" ondragstart="drag(event)" id="drag4"/>
+								  <img class="pokemon" src="img/imagenojos5.png" draggable="true" ondragstart="drag(event)" id="drag2"/>
+								  <img class="pokemon" src="img/imagenojos6.png"draggable="true" ondragstart="drag(event)" id="drag3"/>
+								  <img class="pokemon" src="img/imagenojos.png" draggable="true" ondragstart="drag(event)" id="drag4"/>
+								  <img class="pokemon" src="img/imagenojos2.png" draggable="true" ondragstart="drag(event)" id="drag2"/>
+								</section>
+								<div id="resultado"><button type="button" class="btn btn-primary" 
+								onClick="document.getElementById('visible').style.visibility='visible'"
+								>REALIZAR DIAGNOSTICO</button></div>
+								<div id="resultado">
+								<div id="visible" style="visibility:hidden" align="left"><p>Resultado: <br>
+								
+								visión borrosa o distorsionada a largo plazo puede tener diversas causas de fondo.
+								En la gran mayoría de los casos, es el resultado de un simple error refractivo 
+								que hace que la luz se enfoque en un punto distinto al que debe enfocarse en la parte 
+								posterior de la retina.<br>
+								</p>
+								</div>
+								</div>
+								<fieldset>
+								<legend>Subir archivos</legend>
+
+								<input type="hidden" id="MAX_FILE_SIZE" name="MAX_FILE_SIZE" value="300000" />
+
+								<div>
+									<label for="fileselect">Arcivos a subir</label>
+									<input type="file" id="fileselect" name="fileselect[]" multiple="multiple" />
+									<div id="filedrag">O arrastre los archivos aquí</div>
+								</div>
+								</fieldset>
+								
+								
+								
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
+                </div>
+                <!-- /page content -->
+
+                <!-- footer content -->
+                <footer>
+                    <div class="">
+                        <p class="pull-right">GD
+                        </p>
+                    </div>
+                    <div class="clearfix"></div>
+                </footer>
+                <!-- /footer content -->
+
+            </div>
+
+        </div>
+    </div>
+
+
+        <script src="js/bootstrap.min.js"></script>
+
+        <!-- bootstrap progress js -->
+        <script src="js/progressbar/bootstrap-progressbar.min.js"></script>
+        <script src="js/nicescroll/jquery.nicescroll.min.js"></script>
+        <!-- icheck -->
+        <script src="js/icheck/icheck.min.js"></script>
+        <!-- tags -->
+        <script src="js/tags/jquery.tagsinput.min.js"></script>
+        <!-- switchery -->
+        <script src="js/switchery/switchery.min.js"></script>
+        <!-- daterangepicker -->
+        <script type="text/javascript" src="js/moment.min2.js"></script>
+        <!-- richtext editor -->
+        <script src="js/editor/bootstrap-wysiwyg.js"></script>
+        <script src="js/editor/external/jquery.hotkeys.js"></script>
+        <script src="js/editor/external/google-code-prettify/prettify.js"></script>
+        <!-- select2 -->
+        <script src="js/select/select2.full.js"></script>
+        <!-- form validation -->
+        <script type="text/javascript" src="js/parsley/parsley.min.js"></script>
+        <!-- textarea resize -->
+        <script src="js/textarea/autosize.min.js"></script>
+        <script>
+            autosize($('.resizable_textarea'));
+        </script>
+        <!-- Autocomplete -->
+        <script src="js/autocomplete/jquery.autocomplete.js"></script>
+        <script src="js/custompcsistel.js"></script>
+
+
+        <!-- select2 -->
+        <script>
+            $(document).ready(function () {
+                $(".select2_single").select2({
+                    placeholder: "Select a state",
+                    allowClear: true
+                });
+                $(".select2_group").select2({});
+                $(".select2_multiple").select2({
+                    maximumSelectionLength: 4,
+                    placeholder: "With Max Selection limit 4",
+                    allowClear: true
+                });
+            });
+        </script>
+        <!-- /select2 -->
+        <!-- input tags -->
+        <script>
+            function onAddTag(tag) {
+                alert("Added a tag: " + tag);
+            }
+
+            function onRemoveTag(tag) {
+                alert("Removed a tag: " + tag);
+            }
+
+            function onChangeTag(input, tag) {
+                alert("Changed a tag: " + tag);
+            }
+
+            $(function () {
+                $('#tags_1').tagsInput({
+                    width: 'auto'
+                });
+            });
+        </script>
+        <!-- /input tags -->
+        <!-- form validation -->
+        <script type="text/javascript">
+            $(document).ready(function () {
+                $.listen('parsley:field:validate', function () {
+                    validateFront();
+                });
+                $('#demo-form .btn').on('click', function () {
+                    $('#demo-form').parsley().validate();
+                    validateFront();
+                });
+                var validateFront = function () {
+                    if (true === $('#demo-form').parsley().isValid()) {
+                        $('.bs-callout-info').removeClass('hidden');
+                        $('.bs-callout-warning').addClass('hidden');
+                    } else {
+                        $('.bs-callout-info').addClass('hidden');
+                        $('.bs-callout-warning').removeClass('hidden');
+                    }
+                };
+            });
+
+            $(document).ready(function () {
+                $.listen('parsley:field:validate', function () {
+                    validateFront();
+                });
+                $('#demo-form2 .btn').on('click', function () {
+                    $('#demo-form2').parsley().validate();
+                    validateFront();
+                });
+                var validateFront = function () {
+                    if (true === $('#demo-form2').parsley().isValid()) {
+                        $('.bs-callout-info').removeClass('hidden');
+                        $('.bs-callout-warning').addClass('hidden');
+                    } else {
+                        $('.bs-callout-info').addClass('hidden');
+                        $('.bs-callout-warning').removeClass('hidden');
+                    }
+                };
+            });
+            try {
+                hljs.initHighlightingOnLoad();
+            } catch (err) {}
+        </script>
+        <!-- /form validation -->
+        <!-- editor -->
+        <script>
+            $(document).ready(function () {
+                $('.xcxc').click(function () {
+                    $('#descr').val($('#editor').html());
+                });
+            });
+
+            $(function () {
+                function initToolbarBootstrapBindings() {
+                    var fonts = ['Serif', 'Sans', 'Arial', 'Arial Black', 'Courier',
+                'Courier New', 'Comic Sans MS', 'Helvetica', 'Impact', 'Lucida Grande', 'Lucida Sans', 'Tahoma', 'Times',
+                'Times New Roman', 'Verdana'],
+                        fontTarget = $('[title=Font]').siblings('.dropdown-menu');
+                    $.each(fonts, function (idx, fontName) {
+                        fontTarget.append($('<li><a data-edit="fontName ' + fontName + '" style="font-family:\'' + fontName + '\'">' + fontName + '</a></li>'));
+                    });
+                    $('a[title]').tooltip({
+                        container: 'body'
+                    });
+                    $('.dropdown-menu input').click(function () {
+                            return false;
+                        })
+                        .change(function () {
+                            $(this).parent('.dropdown-menu').siblings('.dropdown-toggle').dropdown('toggle');
+                        })
+                        .keydown('esc', function () {
+                            this.value = '';
+                            $(this).change();
+                        });
+
+                    $('[data-role=magic-overlay]').each(function () {
+                        var overlay = $(this),
+                            target = $(overlay.data('target'));
+                        overlay.css('opacity', 0).css('position', 'absolute').offset(target.offset()).width(target.outerWidth()).height(target.outerHeight());
+                    });
+                    if ("onwebkitspeechchange" in document.createElement("input")) {
+                        var editorOffset = $('#editor').offset();
+                        $('#voiceBtn').css('position', 'absolute').offset({
+                            top: editorOffset.top,
+                            left: editorOffset.left + $('#editor').innerWidth() - 35
+                        });
+                    } else {
+                        $('#voiceBtn').hide();
+                    }
+                };
+
+                function showErrorAlert(reason, detail) {
+                    var msg = '';
+                    if (reason === 'unsupported-file-type') {
+                        msg = "Unsupported format " + detail;
+                    } else {
+                        console.log("error uploading file", reason, detail);
+                    }
+                    $('<div class="alert"> <button type="button" class="close" data-dismiss="alert">&times;</button>' +
+                        '<strong>File upload error</strong> ' + msg + ' </div>').prependTo('#alerts');
+                };
+                initToolbarBootstrapBindings();
+                $('#editor').wysiwyg({
+                    fileUploadError: showErrorAlert
+                });
+                window.prettyPrint && prettyPrint();
+            });
+        </script>
+        <!-- /editor -->
+</body>
+
+</html>
